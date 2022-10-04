@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221003 21:02:21.637" rpa="false" schemaversion="3">
+<suite id="s1" name="testE1Dicionario" source="C:\Users\Wise\Documents\RobotFrameworkPHA\exercicio2\src\test\features\testE1Dicionario.robot">
+<test id="s1-t1" name="Consultar pessoa" line="10">
+<kw name="Apresentar dados" library="kwsE1Dicionario">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nNome: ${PESSOA.nome} \nEmail: ${PESSOA.email} \nIdade:${PESSOA.idade} \nRua:${PESSOA.rua} Nº:${PESSOA.numero}</arg>
+<arg>Bairro:${PESSOA.bairro} \nCidade:${PESSOA.cidade} Estado:${PESSOA.estado} \nCep:${PESSOA.cep}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 21:02:21.859" endtime="20221003 21:02:21.864"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Bairro:${PESSOA.bairro} \nCidade:${PESSOA.cidade} Estado:${PESSOA.estado} \nCep:${PESSOA.cep}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221003 21:02:21.864" endtime="20221003 21:02:21.867"/>
+</kw>
+<status status="PASS" starttime="20221003 21:02:21.858" endtime="20221003 21:02:21.867"/>
+</kw>
+<status status="PASS" starttime="20221003 21:02:21.857" endtime="20221003 21:02:21.869"/>
+</test>
+<status status="PASS" starttime="20221003 21:02:21.639" endtime="20221003 21:02:21.870"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="testE1Dicionario">testE1Dicionario</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
