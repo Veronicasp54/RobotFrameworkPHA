@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221003 20:41:50.837" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221003 23:40:23.825" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot Interactive Console" source="c:\Users\Wise\.vscode\extensions\robocorp.robotframework-lsp-1.2.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
 <test id="s1-t1" name="Default Task/Test" line="5">
 <kw name="Interpreter Main Loop" library="MainLoop">
-<kw name="Apresentar dados">
-<msg timestamp="20221003 20:41:51.686" level="FAIL">No keyword with name 'Apresentar dados' found.</msg>
-<status status="FAIL" starttime="20221003 20:41:51.686" endtime="20221003 20:41:51.686"/>
+<status status="PASS" starttime="20221003 23:40:23.851" endtime="20221003 23:40:31.638"/>
 </kw>
-<status status="PASS" starttime="20221003 20:41:50.869" endtime="20221003 20:41:53.119"/>
-</kw>
-<status status="PASS" starttime="20221003 20:41:50.869" endtime="20221003 20:41:53.119"/>
+<status status="PASS" starttime="20221003 23:40:23.850" endtime="20221003 23:40:31.639"/>
 </test>
-<status status="PASS" starttime="20221003 20:41:50.838" endtime="20221003 20:41:53.121"/>
+<status status="PASS" starttime="20221003 23:40:23.827" endtime="20221003 23:40:31.639"/>
 </suite>
 <statistics>
 <total>
